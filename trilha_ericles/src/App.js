@@ -7,13 +7,13 @@ function App() {
   return (
     <div className="App">
 
-      <Header/>
+      <Header />
 
-      <img src={perfil} className="perfil-logo" alt="perfil" />
       
+
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        
+        <img src={perfil} className="perfil-logo" alt="perfil" />
+
         <h1 className="title">
           Éricles Fabrício Dias Anselmo
         </h1>
@@ -21,9 +21,9 @@ function App() {
         <h2 className="subtitle">
           Desenvolvedor Front-End
         </h2>
-        
+
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elit mauris, lacinia vel arcu nec, rutrum porta est. Fusce tempor ante non leo dapibus, at dictum turpis egestas. Donec non ipsum tortor. In urna nulla, facilisis eu accumsan nec, mattis at eros. Quisque aliquam euismod neque cursus auctor. Ut fermentum justo dui, ac aliquam diam porta nec. Donec non nulla sit amet lectus molestie aliquet. Vestibulum blandit dolor mauris, eget feugiat tortor fermentum quis. Fusce posuere fringilla dui, ut viverra urna. Donec est dolor, semper vel viverra vel, placerat quis urna. Aliquam fringilla rhoncus justo, eu tincidunt erat facilisis quis. Sed libero magna, vulputate a nisi a, rutrum dignissim tellus. Etiam lacinia orci tincidunt elit accumsan scelerisque. Aliquam eget ullamcorper leo.
+          Busco uma oportunidade como desenvolvedor front-end ou mobile, onde possa aplicar e expandir minhas habilidades em HTML, CSS e JavaScript, além de bibliotecas modernas como React e React Native. Com um forte foco na criação de interfaces intuitivas e experiências de usuário envolventes, almejo integrar uma equipe de desenvolvimento inovadora. Meu objetivo é utilizar boas práticas de design para desenvolver soluções eficientes, acessíveis e impactantes. Estou continuamente aprimorando minhas competências técnicas e buscando novos desafios que me permitam aprender e contribuir de forma significativa para projetos dinâmicos e de alta performance.
         </p>
       </header>
     </div>

@@ -16,7 +16,8 @@
   font-size: calc(10px + 2vmin);
   color: white;
   margin: 15px;
-  gap: 15px
+  gap: 15px;
+  align-items: center;
 }
 
 .App-link {
@@ -24,17 +25,31 @@
 }
 
 .title {
-  align-self: center;
-  color: #e53939;
-  font-size: 2.5rem;
-}
-
-.subtitle {
-  align-self: center;
   color: #e53939;
   font-size: 2rem;
 }
 
+.subtitle {
+  color: #e53939;
+  font-size: 1.6rem;
+}
+
 .perfil-logo {
-  width: 300px;
+  width: 250px;
+  border-radius: 50%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e53939;
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+  .perfil-logo {
+    width: 200px;
+  }
 }
