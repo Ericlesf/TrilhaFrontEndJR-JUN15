@@ -3,7 +3,6 @@
   padding: 0;
 }
 
-
 .App {
   font-family:'Courier New', Courier, monospace;
   background-color: #000000;
@@ -34,6 +33,11 @@
   font-size: 1.6rem;
 }
 
+.about {
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
 .perfil-logo {
   width: 250px;
   border-radius: 50%;
@@ -42,14 +46,17 @@
   border-color: #e53939;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .subtitle {
     font-size: 1rem;
   }
   .perfil-logo {
     width: 200px;
+  }
+  .about {
+    font-size: 1rem;
   }
 }
